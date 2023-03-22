@@ -1,0 +1,79 @@
+.main2 {
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+    background-image: linear-gradient(to top, black, #221010, #921919, rgba(236, 25, 25, 0.486));
+    border-radius: 10px;
+    padding: 1rem;
+    box-shadow: black 0px 0px 20px; }
+    .main2 .bloque {
+      display: block;
+      justify-content: center;
+      width: fit-content; }
+      .main2 .bloque h2 {
+        display: flex;
+        color: #f0f8ffe1;
+        justify-content: center;
+        font-size: 100px;
+        text-shadow: black 0px 0px 20px;
+        font-family: "Bebas Neue", cursive;
+        letter-spacing: 5px;
+        background-color: #000000;
+        border-radius: 10px;
+        box-shadow: white 0px 0px 4px;
+        margin: 10px;
+        padding: 20px;
+        max-width: 100vw; }
+      .main2 .bloque .discos {
+        display: flex;
+        width: 900px;
+        height: 600px;
+        box-shadow: #000000 0px 0px 4px; }
+        .main2 .bloque .discos .rod {
+          display: block;
+          width: 0px;
+          flex-grow: 1;
+          object-fit: cover;
+          opacity: .8;
+          transition: 1s ease;
+          display: flex;
+          width: 900px;
+          height: 600px; }
+          .main2 .bloque .discos .rod img {
+            width: 0px;
+            flex-grow: 1;
+            object-fit: cover;
+            opacity: .8;
+            transition: 1s ease; }
+            .main2 .bloque .discos .rod img:hover {
+              width: 600px;
+              opacity: 1;
+              filter: contrast(100%); }
+        .main2 .bloque .discos .d1:hover {
+          border: solid 1px #843c34;
+          box-shadow: #843c34 0px 0px 20px; }
+        .main2 .bloque .discos .d2:hover {
+          border: solid 1px #0c2c3c;
+          box-shadow: #0c2c3c 0px 0px 20px; }
+        .main2 .bloque .discos .d3:hover {
+          border: solid 1px #6c1414;
+          box-shadow: #6c1414 0px 0px 20px; }
+        .main2 .bloque .discos .d4:hover {
+          border: solid 1px #9c3414;
+          box-shadow: #9c3414 0px 0px 20px; }
+        .main2 .bloque .discos .d5:hover {
+          border: solid 1px #9c0433;
+          box-shadow: #9c0433 0px 0px 20px; }
+        .main2 .bloque .discos .d6:hover {
+          border: solid 1px #4c4c4c;
+          box-shadow: #4c4c4c 0px 0px 20px; }
+        .main2 .bloque .discos .d7:hover {
+          border: solid 1px #33bc74;
+          box-shadow: #33bc74 0px 0px 20px; }
+        .main2 .bloque .discos .d8:hover {
+          border: solid 1px #4c4c4c;
+          box-shadow: #4c4c4c 0px 0px 20px; }
+        .main2 .bloque .discos .d9:hover {
+          border: solid 1px #4c4c4c;
+          box-shadow: #4c4c4c 0px 0px 20px; }

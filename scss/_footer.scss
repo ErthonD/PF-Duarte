@@ -1,0 +1,18 @@
+footer {
+    background-image: linear-gradient(to right, white, #b3acac);
+    padding: 0.7rem;
+    max-width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    grid-area: header;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: rgba(253, 250, 250, 0.747) 0px 0px 7px;
+    border-color: transparent;
+    color: black; }
+    footer .autor .nota1 {
+      font-weight: bold; }
+    footer .nota2 {
+      font-weight: bold; }
