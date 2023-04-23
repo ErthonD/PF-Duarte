@@ -46,10 +46,21 @@
       .main2 .bloque h2 {
         max-width: 80vw;
         font-size: 80px;
-        margin: 50px; }
+        margin: 50px;
+        padding: 15px; }
       .main2 .bloque .discos {
         width: 80vw;
         margin: 50px;
-        justify-content: center; } 
+        justify-content: center; }
+    .main3 .bloque{
+      width: fit-content;
+      .main3 .bloque h2 {
+        max-width: 80vw;
+        font-size: 80px;
+        margin: 50px;
+        padding: 15px; }
+        .main3 .bloque form #mensaje{
+          width: fit-content;  }
+    }
   }
   

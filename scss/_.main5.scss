@@ -1,0 +1,61 @@
+.main5 {
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+    background-image: linear-gradient(to top, black, #221010, #921919, rgba(236, 25, 25, 0.486));
+    border-radius: 10px;
+    box-shadow: black 0px 0px 20px; }
+   .main5 .box {
+        display: block;
+        justify-content: center;
+        margin: 20px;
+        text-align: center;
+        justify-content: center;
+        padding: 20px;
+        font-size: 20px;
+        border-radius: 10px;
+        }
+        .main5 .box .aside{
+            display: block;
+            justify-content: center;    
+        }
+            .main5 .box .aside .conciertos {
+                display: inline-block;
+                justify-content: center;
+                align-items: center;
+                width: fit-content;
+                background-color: #000000;
+                border-radius: 10px;
+                box-shadow: white 0px 0px 4px;
+                margin: 20px;
+                padding: 20px;
+                }
+                .main5 .box .aside .conciertos h5 {
+                color: #f0f8ffe1;
+                font-size: 70px;
+                text-shadow: black 0px 0px 20px;
+                font-family: "Bebas Neue", cursive;
+                letter-spacing: 5px;
+                max-width: 100vw;
+                padding: 10px;
+                }
+            .main5 .box .aside .relleno2 {
+                font-family: "Ubuntu", sans-serif;
+                background-color: rgba(0, 0, 0, 0.568);
+                box-shadow: #ac9797 0px 0px 15px;
+                border-radius: 10px;
+                width: 80vw;
+                padding: 10px;
+                margin: 20px;}
+                .main5 .box .aside .relleno2 .fecha .texto2 {
+                background-color: rgba(156, 25, 20, 0.849);
+                font-family: "Bebas Neue", cursive;
+                letter-spacing: 4px;
+                font-size: 65px;
+                text-shadow: #000000 0px 0px 20px;
+                padding: 10px;
+                border-radius: 10px 10px 0px 0px; }
+                .main5 .box .aside .relleno2 p{
+                    font-size: 30px ;
+                }
